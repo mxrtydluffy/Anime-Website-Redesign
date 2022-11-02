@@ -6,17 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite shows</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="color: tomato">
     <!--NavBar-->
-    <nav class="navbar sticky-top  navbar-expand" width="100%" style= "background-color: tomato;">
-        <div class="navbar-nav">
-            <a class=""></a>
+    <nav class="navbar sticky-top navbar-expand" width="100%" style="background-color: tomato;">
+        <!-- VRV Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="https://i.pcmag.com/imagery/reviews/01QxIbVn7M3vpR3v8PaAftp-1..v1584990093.png" width= "100" class="d-inline-block align-top" alt="">
+        </a>
+
+        <div class="navbar-info">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="favorites.html">Favorites</a>
+            <a class="nav-item nav-link" href="register.html">Register</a>
         </div>
     </nav>
+
+    <!-- First Row -->
+    <div class="jumbotron text-center hero-background-img">
+        <a href="https://www.youtube.com/embed/FitTY4hXN0M" class="btn mb-3" style="color: black">Watch Now to be Informed</a>
+        <div class="embed-responsive embed-responsive-16by9 col-lg-6 offset-lg-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FitTY4hXN0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Meet the Characters -->
+    <section id="meet-the-characters" class="text-center">
+        <br>
+        <h1 class="text-center" style="color: tomato;">Meet the Characters</h1>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img class="img-thumbnail" src="images/luffy.jpg" alt="young luffy">
+                    <div class="card-body">
+                        <h3 class="card-title">Monkey D. Luffy</h3>
+                        <p class="protagonist"><strong>Captain</strong></p>
+                        <p class="card-text">Laughs alot and loves Meat!</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <img class="img-thumbnail" src="images/naruto.jpg" alt="young naruto">
+                    <div class="card-body">
+                        <h3 class="card-title">Naruto Uzumaki</h3>
+                        <p class="protagonist"><strong>Goofball</strong></p>
+                        <p class="card-text">Energenic, cheerful person, who loves ramen! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <div class="card-body, text-center">
+        <img class="img-thumbnail" src="images/chihiro.jpg" alt="chihiro ogino">
+        <div class="card-body">
+            <h3 class="card-title">Chihiro Ogino</h3>
+            <p class="protagonist"><strong>Adventurer</strong></p>
+            <p class="card-text">A kind, shy, cautious person who respects everyone she meets. </p>
+        </div>
+    </div>
+
 
 
 </body>
 </html>
+

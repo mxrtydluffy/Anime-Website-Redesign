@@ -1,0 +1,19 @@
+.navbar-info{
+    display: flex;
+    flex-direction: row;
+    color: #EED5AE
+}
+
+.navbar-info a {
+    color: #EED5AE
+}
+
+h3, p{
+    display: flex;
+    justify-content: center;
+}
+
+.container_chihiro{
+    display: flex;
+    justify-content: center;
+}
