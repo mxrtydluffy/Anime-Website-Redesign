@@ -23,17 +23,12 @@ form{
     justify-content: center;
 }
 
-.lead_mb-4{
-    color: black;
-    background-color: yellow;
-}
-
 .account-info{
     display: flex;
     flex-direction: column;
 }
 
-#carouselExampleControls{
+.row{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
