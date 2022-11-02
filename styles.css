@@ -27,3 +27,8 @@ form{
     color: black;
     background-color: yellow;
 }
+
+.account-info{
+    display: flex;
+    flex-direction: column;
+}
