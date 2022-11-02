@@ -17,3 +17,13 @@ h3, p{
     display: flex;
     justify-content: center;
 }
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.lead_mb-4{
+    color: black;
+    background-color: yellow;
+}
