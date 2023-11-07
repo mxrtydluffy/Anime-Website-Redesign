@@ -1,10 +1,66 @@
-.navbar-info{
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+body > div {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.top-navigation {
+    background-color: tomato;
+}
+  
+.top-navigation .container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+  
+.top-navigation-wrap {
+    margin-right: 2rem;
+}
+
+img {
+    display: block
+}
+  
+.top-navigation-main {
+    flex: 1;
+}
+  
+.main-nav {
+    display: flex;
+    align-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+  
+.navbar-info li {
+    margin-right: 20px; /* Adjust the margin as needed to control the spacing between navigation items */
+}
+
+ul.navbar-info {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    gap: 1rem;
 }
 
 .navbar-info a {
-    color: #EED5AE
+    color: #EED5AE;
+    text-decoration: none;
+    list-style: none;
 }
 
 h3, p{
