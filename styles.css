@@ -33,10 +33,11 @@ body > div {
 img {
     display: block
 }
-  
-.top-navigation-main {
-    flex: 1;
-}
+
+/* Makes navbar content in the far left. */
+/* .top-navigation-main {
+    flex: 1; 
+} */
   
 .main-nav {
     display: flex;
@@ -64,58 +65,61 @@ ul.navbar-info {
     list-style: none;
 }
 
-/* First Row */
-div h1 {
-    text-align: center;
-    padding: 1.5rem 0 1.5rem 0;
-}
-
-.video-frame {
-    display: flex;
-    justify-content: center;
-}
-
 /* Characters */
 
-img {
-    position: static;
-    width: fit-content;
-    height: fit-content;
-    object-fit: cover;
+/* Structure of grid */
+
+.onePiece-thumbnail, .naruto-thumbnail, .chihiro-thumbnail{
+    width: 250px;
+    height: 250px;
 }
 
-#characters {
+.naruto-thumbnail, .chihiro-thumbnail{
+    width: 300px;
+    height: 250px;
+}
+
+.chihiro-thumbnail{
+    width: 330px;
+    height: 250px;
+}
+
+.grid {
     display: grid;
-    width: 100%;
-    height: 3rem;
-    grid-template-areas: 
-    ".onePiece-body" ".onePiece-thumbnail"
-    ".naruto-thumbnail" ".naruto=body"
-    ".chihiro-body" ".chihiro-thumbnail";
-    grid-gap: 1em;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 30px;
 }
 
-/* h3, p{
-    display: flex;
-    justify-content: center;
+main {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
 }
 
-.container_chihiro{
-    display: flex;
-    justify-content: center;
+main div iframe {
+    grid-column: span 6;
 }
 
-form{
-    display: flex;
-    justify-content: center;
+main .welcome {
+    grid-column: 8 / span 5;
 }
 
-.account-info{
-    display: flex;
-    flex-direction: column;
+main > h2 {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
 }
 
-.row{
-    display: flex;
-    justify-content: space-around;
-} */
+main .card {
+    grid-column: span 4;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+}
+
+.footer {
+    padding: 0 0 2.5em 0;
+    margin: 0 0 0 2.5em;
+}
