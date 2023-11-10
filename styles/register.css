@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+*, *::before, *::after {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.form-content {
+    background-color: #f4f4f4;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation {
+    background-color: tomato;
+}
+  
+.top-navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+  
+.top-navigation-wrap {
+    margin-right: 2rem;
+}
+
+img {
+    display: block
+}
+
+/* Makes navbar content in the far left. */
+/* .top-navigation-main {
+    flex: 1; 
+} */
+  
+.main-nav {
+    display: flex;
+    align-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+  
+.navbar-info li {
+    margin-right: 20px; /* Adjust the margin as needed to control the spacing between navigation items */
+}
+
+ul.navbar-info {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    gap: 1rem;
+}
+
+.navbar-info a {
+    color: #EED5AE;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Form Styling */
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    padding: 0 0 2.5em 0;
+    margin: 0 0 0 2.5em;
+    background-color: #f4f4f4;
+}
