@@ -5,57 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VRV shows</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/favorites.css">
 </head>
-<body style="color: tomato">
+<body>
     <!--NavBar-->
-    <nav class="navbar sticky-top navbar-expand" width="100%" style="background-color: tomato;">
-        <!-- VRV Logo -->
-        <a class="navbar-brand" href="#">
-            <img src="https://i.pcmag.com/imagery/reviews/01QxIbVn7M3vpR3v8PaAftp-1..v1584990093.png" width= "100" class="d-inline-block align-top" alt="">
-        </a>
-
-        <div class="navbar-info">
-            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="favorites.html">Favorites</a>
-            <a class="nav-item nav-link active" href="register.html">Register</a>
-        </div>
-    </nav>
-
-    <section id="current-characters" class="text-center">
-        <br>
-        <h1 class="text-center">Where they are now</h1>
-        <div class="container pb-5 pt-5 mb-5 mt-5">
-            <div class="row">
-                <!-- Luffy -->
-                <div class="card" style="width: 18rem;">
-                    <img src="https://otakukart.com/wp-content/uploads/2020/04/One-Piece-Chapter-978.jpg" class="card-img-top" alt="Luffy Now">
-                    <div class="card-body">
-                        <p class="card-text">Currently at its 20th season with more than 1030+ episodes, Monkey D. Luffy and his 10 crew members inspires other pirates around the world.</p>
-                    </div>
-                </div>
-                <!-- Naruto -->
-                <div class="card" style="width: 18rem;">
-                    <img src="https://img1.ak.crunchyroll.com/i/spire1/7aba007a8c1af2d6171de78a867aed591664767471_main.jpg" alt="Naruto Now">
-                    <div class="card-body">
-                        <p class="card-text">After being rejected by his village throughout his entire childhood, Naruto's hardwork and accomplishments gets recognized and eventually is the protector of his village.</p>
-                    </div>
-                </div>
-                <!-- Chihiro -->
-                <div class="card" style="width: 18rem;">
-                    <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/07/Spirited-Away-Bathhouse-.jpg" class="card-img-top" alt=" Chihiro ending">
-                    <div class="card-body">
-                        <p class="card-text">From being a sullen, detached character, Chihiro undergoes immense growth by discovering her identity. She became brave despite the ever-changing situations around her.</p>
-                    </div>
-                </div>
+    <header class="top-navigation">
+        <div class="container">
+            <!-- VRV Logo -->
+            <div class="top-navigation-wrap">
+                <a class="logo" href="#">
+                    <img src="https://i.pcmag.com/imagery/reviews/01QxIbVn7M3vpR3v8PaAftp-1..v1584990093.png" width= "100">
+                </a>
+            </div>
+            <!--NavBar Content-->
+            <div class="top-navigation-main">
+                <nav class="main-nav">
+                    <ul class="navbar-info">
+                        <a href="#"><li>Home</li></a>
+                        <a href="favorites.html"><li>Favorites</li></a>
+                        <a href="register.html"><li>Register</li></a>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </section>
+    </header>
 
-    <hr/>
-    <br>
+    <main>
+        <!-- <h2>Why these Characters?</h2> -->
+        <!-- First image -->
+        <div class="short">
+            <h3>One Piece (2001)</h3>
+            <p>Currently at its 20th season with more than 1030+ episodes, Monkey D. Luffy and his 10 crew members inspires other pirates around the world.</p>
+            <a href="">Read more</a>
+        </div>
+        <div class="small">
+            <img src="https://beebom.com/wp-content/uploads/2022/12/luffy-bounty.jpg?w=605" alt="Luffy Before">
+        </div>
+        <div class="short">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43cea976-b52f-410e-90ff-9d9c6ce5b048/dca8lbn-9d2064fc-89d5-4e99-a143-b7ec36420717.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzY2VhOTc2LWI1MmYtNDEwZS05MGZmLTlkOWM2Y2U1YjA0OFwvZGNhOGxibi05ZDIwNjRmYy04OWQ1LTRlOTktYTE0My1iN2VjMzY0MjA3MTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4ZXFqURfQcj9cCgc-6xkZcPkbawUOjDviNNiaLwOcMk" alt="Luffy Now">
+        </div>
+        <div class="short">
+            <h3>One Piece</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad rerum quaerat sapiente deleniti at, placeat vel fugit saepe fuga perferendis totam et. Tenetur eveniet aliquam, accusantium dolor beatae placeat repudiandae?</p>
+        </div>
+        <div class="short">
+            <h3>Naruto</h3>
+            <p>After being rejected by his village throughout his entire childhood, Naruto's hardwork and accomplishments gets recognized and eventually is the protector of his village.</p>
+            <a href="">Read more</a>
+        </div>
+        <!-- Second image -->
+        <div class="small">
+            <img src="https://img1.ak.crunchyroll.com/i/spire1/7aba007a8c1af2d6171de78a867aed591664767471_main.jpg" alt="Naruto Now">
+        </div>
+        <!-- Third Image -->
+        <div class="small">
+            <img src="https://pict.sindonews.net/webp/480/pena/news/2022/01/27/700/669527/7-kelemahan-terbesar-naruto-uzumaki-di-serial-naruto-kno.webp" alt="Naruto Before">
+        </div>
+        <!-- Might need Might not -->
+        <div class="small">
+            <h3>One Piece</h3>
+            <p>Currently at its 20th season with more than 1030+ episodes, Monkey D. Luffy and his 10 crew members inspires other pirates around the world.</p>
+            <a href="">Read more</a>
+        </div>
+        <div class="short">
+            <h3>Naruto</h3>
+            <p>Currently at its 20th season with more than 1030+ episodes, Monkey D. Luffy and his 10 crew members inspires other pirates around the world.</p>
+        </div>
+        <div class="small">
+            <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/07/Spirited-Away-Bathhouse-.jpg" alt="Chihiro">
+        </div>
+        
+    </main>
 
     <!-- Trailers -->
     <section id="videos">

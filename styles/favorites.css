@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar styling */
+
+.top-navigation {
+    background-color: tomato;
+}
+  
+.top-navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+  
+.top-navigation-wrap {
+    margin-right: 2rem;
+}
+
+img {
+    display: block
+}
+
+/* Makes navbar content in the far left. */
+/* .top-navigation-main {
+    flex: 1; 
+} */
+  
+.main-nav {
+    display: flex;
+    align-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+  
+.navbar-info li {
+    margin-right: 20px; /* Adjust the margin as needed to control the spacing between navigation items */
+}
+
+ul.navbar-info {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    gap: 1rem;
+}
+
+.navbar-info a {
+    color: #EED5AE;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Main Body Styling */
+main {
+    display: grid;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    /* Sets mean row height */
+    grid-auto-rows: 250px;
+    gap: 30px;
+}
+
+main div {
+    overflow: hidden;
+    background-color: #EED5AE;
+    border-radius: 6px;
+    border: 16px solid #fff;
+    box-shadow: 3px 3px 3px black;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+main .short {
+    grid-row: span 1;
+}
+
+main .tall {
+    grid-row: span 2;
+}
+
