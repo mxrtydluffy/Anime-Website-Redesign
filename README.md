@@ -1,6 +1,6 @@
 # Anime Website Redesign
 
-[Redesigned Site](https://mxrtydluffy.github.io/Anime-Website-Redesign/)
+[Demo Video](https://drive.google.com/file/d/11jQiPC9fHmW4J3fhbOU8U9dEujdYvmbw/view?usp=sharing)
 
 Anime has been out for decades but many don't know what show to begin with. Fear not this website provides my personal top three bingeworthy anime to watch for beginners. This site is redesigned for a more clean layout.
 
@@ -24,4 +24,4 @@ Anime has been out for decades but many don't know what show to begin with. Fear
 
 - Custom Font
 - Flex Box
-- 12-column grid
+- 13-column grid
